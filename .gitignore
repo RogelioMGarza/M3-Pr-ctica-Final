@@ -1,19 +1,19 @@
-# Node
-node_modules/
-.env
-.DS_Store
+# Ignorar todo lo del backend que no se necesita en gh-pages
+/backend/node_modules/
+/backend/.env
+/backend/package-lock.json
 
-# Build
+# Ignorar cualquier otro node_modules
+node_modules/
+
+# Archivos comunes innecesarios
+.DS_Store
+.env
 dist/
 build/
-
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# IDEs
 .vscode/
 .idea/
+*.log
+
+# Ignorar backend y sus node_modules
+/backend/
