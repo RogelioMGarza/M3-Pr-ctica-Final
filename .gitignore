@@ -13,5 +13,3 @@ build/
 .idea/
 *.log
 
-# Ignorar backend y sus node_modules
-/backend/
