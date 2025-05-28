@@ -1,7 +1,19 @@
 # Node
 node_modules/
 .env
+.DS_Store
+
+# Build
 dist/
 build/
-.DS_Store
-.vscode
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDEs
+.vscode/
+.idea/
