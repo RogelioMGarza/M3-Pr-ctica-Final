@@ -1,7 +1,5 @@
 # Ignorar todo lo del backend que no se necesita en gh-pages
 /backend/node_modules/
-/backend/.env
-/backend/package-lock.json
 
 # Ignorar cualquier otro node_modules
 node_modules/
